@@ -66,3 +66,46 @@ I am continuously exploring **Large Language Models (LLMs)**, **Prompt Engineeri
 - Open Source Collaboration
 
 ---
+
+# 💻 Tech Stack
+
+<div align="center">
+
+## Languages
+
+<img src="https://skillicons.dev/icons?i=java,js"/>
+
+## Frontend
+
+<img src="https://skillicons.dev/icons?i=html,css,tailwind,react,nextjs"/>
+
+## Backend
+
+<img src="https://skillicons.dev/icons?i=nodejs,express"/>
+
+## Databases
+
+<img src="https://skillicons.dev/icons?i=firebase,mongodb,mysql"/>
+
+## AI & Development
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode"/>
+
+</div>
+
+---
+
+# 🤖 AI & Machine Learning
+
+| Domain | Experience |
+|---------|------------|
+| Generative AI | ⭐⭐⭐⭐☆ |
+| Prompt Engineering | ⭐⭐⭐⭐☆ |
+| Large Language Models | ⭐⭐⭐⭐☆ |
+| AI Interview Systems | ⭐⭐⭐⭐☆ |
+| Voice AI | ⭐⭐⭐⭐☆ |
+| Full Stack AI Apps | ⭐⭐⭐⭐☆ |
+| Firebase | ⭐⭐⭐⭐☆ |
+| REST APIs | ⭐⭐⭐⭐☆ |
+
+---
