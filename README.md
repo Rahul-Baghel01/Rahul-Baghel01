@@ -109,3 +109,84 @@ I am continuously exploring **Large Language Models (LLMs)**, **Prompt Engineeri
 | REST APIs | ⭐⭐⭐⭐☆ |
 
 ---
+
+# 🚀 Featured Projects
+
+<details open>
+<summary><b>🎙️ PrepWise – AI Mock Interview Platform</b></summary>
+
+### Overview
+
+PrepWise is an AI-powered interview preparation platform that simulates real technical interviews using voice AI and personalized question generation.
+
+### Key Features
+
+- 🎤 AI Voice Interview
+- 📄 Resume Upload & Analysis
+- 🤖 AI-generated Interview Questions
+- 💬 Human-like Interview Experience
+- 📊 AI Feedback & Performance Report
+- 🔥 Interview History
+- 🔐 Secure Authentication
+- ☁️ Firebase & Firestore Integration
+- 📱 Responsive UI
+- ⚡ Real-time Interview Experience
+
+### Tech Stack
+
+- Next.js
+- React
+- Tailwind CSS
+- Firebase
+- Firestore
+- Gemini AI
+- Groq LLM
+- Vapi AI
+- TypeScript
+
+### Highlights
+
+- Resume-based personalized interviews
+- AI-generated technical and HR questions
+- Voice conversation powered by Vapi AI
+- Detailed interview analytics and feedback
+- Modern production-ready architecture
+
+</details>
+
+---
+
+<details open>
+<summary><b>💬 SecureChat – Real-Time Chat Application</b></summary>
+
+### Overview
+
+SecureChat is a modern real-time messaging application designed for secure and responsive communication.
+
+### Features
+
+- Real-time Messaging
+- Authentication
+- Responsive UI
+- User-friendly Interface
+- Fast Communication
+
+### Tech Stack
+
+- JavaScript
+- Node.js
+- Express.js
+- Firebase
+- HTML
+- CSS
+
+### Highlights
+
+- Modern chat experience
+- Secure authentication
+- Clean user interface
+- Responsive across devices
+
+</details>
+
+---
