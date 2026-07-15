@@ -224,3 +224,13 @@ SecureChat is a modern real-time messaging application designed for secure and r
 [![Rahul's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Rahul-Baghel01&theme=tokyo-night&hide_border=true)](https://github.com/Rahul-Baghel01)
 
 ---
+
+# 🐍 Contribution Snake
+
+<div align="center">
+
+![Snake animation](https://github.com/Rahul-Baghel01/Rahul-Baghel01/blob/output/github-contribution-grid-snake-dark.svg)
+
+</div>
+
+---
