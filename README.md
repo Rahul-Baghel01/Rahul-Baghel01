@@ -195,9 +195,9 @@ SecureChat is a modern real-time messaging application designed for secure and r
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Rahul-Baghel01&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Rahul-Baghel01&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"/>
 
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=Rahul-Baghel01&theme=tokyonight&hide_border=true"/>
+<img height="170" src="https://streak-stats.demolab.com?user=Rahul-Baghel01&theme=tokyonight&hide_border=true"/>
 
 </div>
 
@@ -213,7 +213,7 @@ SecureChat is a modern real-time messaging application designed for secure and r
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=Rahul-Baghel01&theme=tokyonight&no-frame=true&row=2&column=4)](https://github.com/ryo-ma/github-profile-trophy)
+<img src="https://github-profile-trophy.vercel.app/?username=Rahul-Baghel01&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15"/>
 
 </div>
 
