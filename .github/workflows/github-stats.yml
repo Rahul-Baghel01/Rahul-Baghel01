@@ -2,6 +2,11 @@ name: Generate GitHub Stats
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+permissions:
+  contents: write
 
 jobs:
   metrics:
@@ -13,3 +18,12 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: Rahul-Baghel01
+
+          filename: github-metrics.svg
+
+          base: header, activity, community, repositories, metadata
+
+          config_timezone: Asia/Kolkata
+
+          committer_branch: main
+          committer_message: "Update GitHub Metrics"
