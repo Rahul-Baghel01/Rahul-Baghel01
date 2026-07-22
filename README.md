@@ -211,7 +211,7 @@ SecureChat is a modern real-time messaging application designed for secure and r
 
 <div align="center">
 
-![Snake animation](https://github.com/Rahul-Baghel01/Rahul-Baghel01/blob/output/github-contribution-grid-snake-dark.svg)
+![Snake animation](https://raw.githubusercontent.com/Rahul-Baghel01/Rahul-Baghel01/output/github-contribution-grid-snake-dark.svg)
 
 </div>
 
