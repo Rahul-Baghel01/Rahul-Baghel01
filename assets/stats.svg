@@ -1,123 +1,402 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350">
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg
+xmlns="http://www.w3.org/2000/svg"
+width="900"
+height="420"
+viewBox="0 0 900 420">
 
 <defs>
 
-<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-<stop offset="0%" stop-color="#0F172A"/>
+<linearGradient
+id="bg"
+x1="0%"
+y1="0%"
+x2="100%"
+y2="100%">
+
+<stop offset="0%" stop-color="#111827"/>
 <stop offset="100%" stop-color="#1E1B4B"/>
+
 </linearGradient>
 
-<linearGradient id="border">
+<linearGradient
+id="border">
+
 <stop offset="0%" stop-color="#3B82F6"/>
 <stop offset="100%" stop-color="#8B5CF6"/>
+
 </linearGradient>
 
 <filter id="shadow">
-<feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity=".45"/>
+
+<feDropShadow
+dx="0"
+dy="10"
+stdDeviation="12"
+flood-opacity=".35"/>
+
 </filter>
 
 </defs>
 
-<!-- Border -->
-
 <rect
-x="5"
-y="5"
-width="690"
-height="340"
-rx="28"
-fill="url(#border)"/>
-
-<!-- Card -->
-
-<rect
-x="10"
-y="10"
-width="680"
-height="330"
-rx="24"
+x="15"
+y="15"
+width="870"
+height="390"
+rx="30"
 fill="url(#bg)"
+stroke="url(#border)"
+stroke-width="6"
 filter="url(#shadow)"/>
 
-<!-- Title -->
+<!-- ================================================= -->
+<!-- HEADER -->
+<!-- ================================================= -->
 
 <text
-x="350"
-y="50"
+x="450"
+y="60"
 text-anchor="middle"
-font-size="28"
-fill="#38BDF8"
 font-family="Segoe UI"
-font-weight="700">
+font-size="34"
+font-weight="700"
+fill="#38BDF8">
 
 GitHub Dashboard
 
 </text>
 
-<!-- Divider -->
-
 <line
-x1="40"
-y1="70"
-x2="660"
-y2="70"
-stroke="#334155"/>
+x1="70"
+y1="85"
+x2="830"
+y2="85"
+stroke="#334155"
+stroke-width="2"/>
 
-<!-- Left Column -->
+<!-- ================================================= -->
+<!-- LEFT COLUMN -->
+<!-- ================================================= -->
 
-<text x="60" y="120" fill="white" font-size="18">📦 Repositories</text>
-<text x="290" y="120" fill="#60A5FA" font-size="18">XX</text>
+<text
+x="70"
+y="145"
+font-family="Segoe UI"
+font-size="24"
+fill="white">
 
-<text x="60" y="165" fill="white" font-size="18">⭐ Stars</text>
-<text x="290" y="165" fill="#60A5FA" font-size="18">XX</text>
+📦 Repositories
 
-<text x="60" y="210" fill="white" font-size="18">👥 Followers</text>
-<text x="290" y="210" fill="#60A5FA" font-size="18">XX</text>
+</text>
 
-<text x="60" y="255" fill="white" font-size="18">🔥 Contributions</text>
-<text x="290" y="255" fill="#60A5FA" font-size="18">XXXX</text>
+<text
+x="360"
+y="145"
+text-anchor="end"
+font-family="Segoe UI"
+font-size="24"
+font-weight="700"
+fill="#60A5FA"
+data-profile-placeholder="PUBLIC_REPOS">
 
-<!-- Right Column -->
+3
 
-<text x="390" y="120" fill="white" font-size="18">💻 Experience</text>
-<text x="620" y="120" fill="#A78BFA" font-size="18">3+ Years</text>
+</text>
 
-<text x="390" y="165" fill="white" font-size="18">🚀 Internship</text>
-<text x="620" y="165" fill="#22C55E" font-size="18">Open</text>
+<text
+x="70"
+y="195"
+font-family="Segoe UI"
+font-size="24"
+fill="white">
 
-<text x="390" y="210" fill="white" font-size="18">🤖 AI Projects</text>
-<text x="620" y="210" fill="#A78BFA" font-size="18">Yes</text>
+⭐ Stars
 
-<text x="390" y="255" fill="white" font-size="18">🌍 Open Source</text>
-<text x="620" y="255" fill="#22C55E" font-size="18">Active</text>
+</text>
 
-<!-- Bottom Badge -->
+<text
+x="360"
+y="195"
+text-anchor="end"
+font-family="Segoe UI"
+font-size="24"
+font-weight="700"
+fill="#60A5FA"
+data-profile-placeholder="TOTAL_STARS">
+
+3
+
+</text>
+
+<text
+x="70"
+y="245"
+font-family="Segoe UI"
+font-size="24"
+fill="white">
+
+👥 Followers
+
+</text>
+
+<text
+x="360"
+y="245"
+text-anchor="end"
+font-family="Segoe UI"
+font-size="24"
+font-weight="700"
+fill="#60A5FA"
+data-profile-placeholder="FOLLOWERS">
+
+0
+
+</text>
+
+<text
+x="70"
+y="295"
+font-family="Segoe UI"
+font-size="24"
+fill="white">
+
+🔥 Following
+
+</text>
+
+<text
+x="360"
+y="295"
+text-anchor="end"
+font-family="Segoe UI"
+font-size="24"
+font-weight="700"
+fill="#60A5FA"
+data-profile-placeholder="FOLLOWING">
+
+0
+
+</text>
+
+<!-- ================================================= -->
+<!-- RIGHT COLUMN -->
+<!-- ================================================= -->
+
+<text
+x="470"
+y="145"
+font-family="Segoe UI"
+font-size="24"
+fill="white">
+
+💻 Experience
+
+</text>
+
+<text
+x="820"
+y="145"
+text-anchor="end"
+font-family="Segoe UI"
+font-size="24"
+fill="#A78BFA">
+
+3+ Years
+
+</text>
+
+<text
+x="470"
+y="195"
+font-family="Segoe UI"
+font-size="24"
+fill="white">
+
+🚀 Latest update
+
+</text>
+
+<text
+x="820"
+y="195"
+text-anchor="end"
+font-family="Segoe UI"
+font-size="24"
+fill="#22C55E"
+data-profile-placeholder="LATEST_UPDATE">
+
+Jul 22, 2026
+
+</text>
+
+<text
+x="470"
+y="245"
+font-family="Segoe UI"
+font-size="24"
+fill="white">
+
+🤖 AI Projects
+
+</text>
+
+<text
+x="820"
+y="245"
+text-anchor="end"
+font-family="Segoe UI"
+font-size="24"
+fill="#A78BFA">
+
+Yes
+
+</text>
+
+<text
+x="470"
+y="295"
+font-family="Segoe UI"
+font-size="24"
+fill="white">
+
+🌍 Open Source
+
+</text>
+
+<text
+x="820"
+y="295"
+text-anchor="end"
+font-family="Segoe UI"
+font-size="24"
+fill="#22C55E">
+
+Active
+
+</text>
+
+<!-- ================================================= -->
+<!-- FOOTER BUTTON -->
+<!-- ================================================= -->
 
 <rect
-x="170"
-y="290"
-rx="18"
-width="360"
-height="36"
-fill="#2563EB">
+x="210"
+y="340"
+width="480"
+height="46"
+rx="23"
+fill="#2563EB"/>
+
+<text
+x="450"
+y="370"
+text-anchor="middle"
+font-family="Segoe UI"
+font-size="22"
+font-weight="600"
+fill="white">
+
+Building AI Products 🚀
+
+</text>
+
+<!-- ================================================= -->
+<!-- BACKGROUND DECORATION -->
+<!-- ================================================= -->
+
+<circle
+cx="120"
+cy="70"
+r="80"
+fill="#3B82F6"
+opacity=".05"/>
+
+<circle
+cx="780"
+cy="340"
+r="100"
+fill="#8B5CF6"
+opacity=".06"/>
+
+<circle
+cx="450"
+cy="210"
+r="140"
+fill="#22D3EE"
+opacity=".03"/>
+
+<!-- ================================================= -->
+<!-- GRID -->
+<!-- ================================================= -->
+
+<g
+stroke="#60A5FA"
+stroke-opacity=".05"
+stroke-width="1">
+
+<line x1="40" y1="120" x2="860" y2="120"/>
+<line x1="40" y1="170" x2="860" y2="170"/>
+<line x1="40" y1="220" x2="860" y2="220"/>
+<line x1="40" y1="270" x2="860" y2="270"/>
+<line x1="40" y1="320" x2="860" y2="320"/>
+
+</g>
+
+<!-- ================================================= -->
+<!-- GLOWING STATUS DOT -->
+<!-- ================================================= -->
+
+<circle
+cx="735"
+cy="195"
+r="6"
+fill="#22C55E">
 
 <animate
 attributeName="opacity"
-values="1;.7;1"
-dur="3s"
+values="1;.25;1"
+dur="2s"
 repeatCount="indefinite"/>
 
-</rect>
+</circle>
+
+<circle
+cx="735"
+cy="195"
+r="10"
+fill="#22C55E"
+opacity=".25">
+
+<animate
+attributeName="r"
+values="10;18;10"
+dur="2s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<!-- ================================================= -->
+<!-- CORNER DECORATION -->
+<!-- ================================================= -->
+
+<circle cx="70" cy="45" r="4" fill="#38BDF8"/>
+<circle cx="830" cy="45" r="4" fill="#A855F7"/>
+
+<!-- ================================================= -->
+<!-- FOOTER -->
+<!-- ================================================= -->
 
 <text
-x="350"
-y="314"
+x="450"
+y="405"
 text-anchor="middle"
-fill="white"
-font-size="17"
-font-family="Segoe UI">
+font-family="Segoe UI"
+font-size="14"
+fill="#64748B">
 
-Building AI Products 🚀
+Designed by Rahul Baghel
 
 </text>
 

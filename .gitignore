@@ -1,0 +1,6 @@
+node_modules/
+.env
+.env.*
+profile-data.json
+output/
+npm-debug.log*

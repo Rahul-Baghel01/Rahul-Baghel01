@@ -15,7 +15,7 @@
 
 <td width="35%" align="center">
 
-<img src="./assets/lanyard.svg" width="300"/>
+<img src="./assets/lanyard.svg" width="300" alt="Rahul Baghel profile card"/>
 
 </td>
 
@@ -70,9 +70,9 @@ I'm a B.Tech student passionate about building modern web applications and AI-po
 
 ## 📊 GitHub Dashboard
 
-<img src="./assets/stats.svg" width="48%"/>
+<img src="./assets/stats.svg" width="48%" alt="GitHub profile statistics"/>
 
-<img src="./assets/langs.svg" width="48%"/>
+<img src="./assets/langs.svg" width="48%" alt="Most-used programming languages"/>
 
 </div>
 
@@ -82,7 +82,7 @@ I'm a B.Tech student passionate about building modern web applications and AI-po
 
 ## 🔥 GitHub Streak
 
-<img src="https://streak-stats.demolab.com?user=Rahul-Baghel01&theme=tokyonight&hide_border=true"/>
+<img src="https://streak-stats.demolab.com?user=Rahul-Baghel01&theme=tokyonight&hide_border=true" alt="GitHub contribution streak"/>
 
 </div>
 
@@ -92,7 +92,7 @@ I'm a B.Tech student passionate about building modern web applications and AI-po
 
 ## 📈 Contribution Graph
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Rahul-Baghel01&theme=tokyo-night&hide_border=true"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Rahul-Baghel01&theme=tokyo-night&hide_border=true" alt="GitHub contribution activity graph"/>
 
 </div>
 
@@ -102,7 +102,7 @@ I'm a B.Tech student passionate about building modern web applications and AI-po
 
 ## 🏆 Achievements
 
-<img src="./assets/trophies.svg" width="95%"/>
+<img src="./assets/trophies.svg" width="95%" alt="GitHub achievements"/>
 
 </div>
 
@@ -112,7 +112,7 @@ I'm a B.Tech student passionate about building modern web applications and AI-po
 
 ## 🐍 Contribution Snake
 
-<img src="./output/github-snake.svg"/>
+<img src="https://raw.githubusercontent.com/Rahul-Baghel01/Rahul-Baghel01/output/github-snake.svg" alt="Animated contribution snake"/>
 
 </div>
 
@@ -123,15 +123,15 @@ I'm a B.Tech student passionate about building modern web applications and AI-po
 ## 🌐 Connect With Me
 
 <a href="mailto:rahulorai03@gmail.com">
-<img src="https://img.shields.io/badge/Email-blue?style=for-the-badge&logo=gmail&logoColor=white"/>
+<img src="https://img.shields.io/badge/Email-blue?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Rahul Baghel"/>
 </a>
 
 <a href="https://github.com/Rahul-Baghel01">
-<img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github"/>
+<img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github" alt="Rahul Baghel on GitHub"/>
 </a>
 
 <a href="https://www.linkedin.com/in/rahul-baghel-6694a9343">
-<img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin"/>
+<img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin" alt="Rahul Baghel on LinkedIn"/>
 </a>
 
 </div>
@@ -140,7 +140,7 @@ I'm a B.Tech student passionate about building modern web applications and AI-po
 
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=Rahul-Baghel01&style=for-the-badge&color=blue"/>
+<img src="https://komarev.com/ghpvc/?username=Rahul-Baghel01&style=for-the-badge&color=blue" alt="Profile view counter"/>
 
 ⭐ Thanks for visiting my profile!
 

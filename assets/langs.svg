@@ -1,117 +1,455 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350">
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg
+xmlns="http://www.w3.org/2000/svg"
+width="900"
+height="420"
+viewBox="0 0 900 420">
 
 <defs>
 
-<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-<stop offset="0%" stop-color="#0F172A"/>
-<stop offset="100%" stop-color="#111827"/>
+<linearGradient
+id="bg"
+x1="0%"
+y1="0%"
+x2="100%"
+y2="100%">
+
+<stop offset="0%" stop-color="#111827"/>
+<stop offset="100%" stop-color="#1E1B4B"/>
+
 </linearGradient>
 
-<linearGradient id="bar">
+<linearGradient
+id="border">
+
 <stop offset="0%" stop-color="#3B82F6"/>
 <stop offset="100%" stop-color="#8B5CF6"/>
+
+</linearGradient>
+
+<linearGradient
+id="bar">
+
+<stop offset="0%" stop-color="#3B82F6"/>
+<stop offset="100%" stop-color="#8B5CF6"/>
+
 </linearGradient>
 
 <filter id="shadow">
-<feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity=".4"/>
+
+<feDropShadow
+dx="0"
+dy="10"
+stdDeviation="12"
+flood-opacity=".35"/>
+
 </filter>
 
 </defs>
 
 <!-- Card -->
-<rect x="5" y="5" width="690" height="340" rx="26"
-fill="url(#bg)" filter="url(#shadow)"/>
 
-<!-- Title -->
+<rect
+x="15"
+y="15"
+width="870"
+height="390"
+rx="30"
+fill="url(#bg)"
+stroke="url(#border)"
+stroke-width="6"
+filter="url(#shadow)"/>
+
+<!-- ================================================= -->
+<!-- TITLE -->
+<!-- ================================================= -->
+
 <text
-x="350"
-y="42"
+x="450"
+y="60"
 text-anchor="middle"
-font-size="28"
-fill="#38BDF8"
 font-family="Segoe UI"
-font-weight="700">
+font-size="34"
+font-weight="700"
+fill="#38BDF8">
 
 Tech Stack
 
 </text>
 
-<!-- JS -->
+<line
+x1="60"
+y1="90"
+x2="840"
+y2="90"
+stroke="#334155"
+stroke-width="2"/>
 
-<text x="40" y="90" fill="white" font-size="18">JavaScript</text>
+<!-- ================================================= -->
+<!-- JAVASCRIPT -->
+<!-- ================================================= -->
 
-<rect x="220" y="74" width="400" height="18" rx="10" fill="#1E293B"/>
+<text
+x="60"
+y="140"
+font-family="Segoe UI"
+font-size="22"
+fill="white">
 
-<rect x="220" y="74" width="360" height="18" rx="10" fill="url(#bar)">
-<animate attributeName="width"
-values="0;360"
+JavaScript
+
+</text>
+
+<rect
+x="250"
+y="120"
+width="560"
+height="18"
+rx="9"
+fill="#1E293B"/>
+
+<rect
+x="250"
+y="120"
+width="500"
+height="18"
+rx="9"
+fill="url(#bar)"/>
+
+<text
+x="830"
+y="136"
+text-anchor="end"
+font-family="Segoe UI"
+font-size="18"
+fill="#38BDF8">
+
+90%
+
+</text>
+
+<!-- ================================================= -->
+<!-- REACT -->
+<!-- ================================================= -->
+
+<text
+x="60"
+y="190"
+font-family="Segoe UI"
+font-size="22"
+fill="white">
+
+React
+
+</text>
+
+<rect
+x="250"
+y="170"
+width="560"
+height="18"
+rx="9"
+fill="#1E293B"/>
+
+<rect
+x="250"
+y="170"
+width="470"
+height="18"
+rx="9"
+fill="url(#bar)"/>
+
+<text
+x="830"
+y="186"
+text-anchor="end"
+font-family="Segoe UI"
+font-size="18"
+fill="#38BDF8">
+
+85%
+
+</text>
+
+<!-- ================================================= -->
+<!-- NEXT.JS -->
+<!-- ================================================= -->
+
+<text
+x="60"
+y="240"
+font-family="Segoe UI"
+font-size="22"
+fill="white">
+
+Next.js
+
+</text>
+
+<rect
+x="250"
+y="220"
+width="560"
+height="18"
+rx="9"
+fill="#1E293B"/>
+
+<rect
+x="250"
+y="220"
+width="445"
+height="18"
+rx="9"
+fill="url(#bar)"/>
+
+<text
+x="830"
+y="236"
+text-anchor="end"
+font-family="Segoe UI"
+font-size="18"
+fill="#38BDF8">
+
+80%
+
+</text>
+
+<!-- ================================================= -->
+<!-- NODE.JS -->
+<!-- ================================================= -->
+
+<text
+x="60"
+y="290"
+font-family="Segoe UI"
+font-size="22"
+fill="white">
+
+Node.js
+
+</text>
+
+<rect
+x="250"
+y="270"
+width="560"
+height="18"
+rx="9"
+fill="#1E293B"/>
+
+<rect
+x="250"
+y="270"
+width="445"
+height="18"
+rx="9"
+fill="url(#bar)"/>
+
+<text
+x="830"
+y="286"
+text-anchor="end"
+font-family="Segoe UI"
+font-size="18"
+fill="#38BDF8">
+
+80%
+
+</text>
+
+<!-- ================================================= -->
+<!-- JAVA -->
+<!-- ================================================= -->
+
+<text
+x="60"
+y="340"
+font-family="Segoe UI"
+font-size="22"
+fill="white">
+
+Java
+
+</text>
+
+<rect
+x="250"
+y="320"
+width="560"
+height="18"
+rx="9"
+fill="#1E293B"/>
+
+<rect
+x="250"
+y="320"
+width="420"
+height="18"
+rx="9"
+fill="url(#bar)">
+
+<animate
+attributeName="width"
+values="0;420"
+dur="1.8s"
+fill="freeze"/>
+
+</rect>
+
+<text
+x="830"
+y="336"
+text-anchor="end"
+font-family="Segoe UI"
+font-size="18"
+fill="#38BDF8">
+
+75%
+
+</text>
+
+<!-- ================================================= -->
+<!-- MONGODB -->
+<!-- ================================================= -->
+
+<text
+x="60"
+y="390"
+font-family="Segoe UI"
+font-size="22"
+fill="white">
+
+MongoDB
+
+</text>
+
+<rect
+x="250"
+y="370"
+width="560"
+height="18"
+rx="9"
+fill="#1E293B"/>
+
+<rect
+x="250"
+y="370"
+width="390"
+height="18"
+rx="9"
+fill="url(#bar)">
+
+<animate
+attributeName="width"
+values="0;390"
 dur="2s"
 fill="freeze"/>
+
 </rect>
 
-<!-- React -->
+<text
+x="830"
+y="386"
+text-anchor="end"
+font-family="Segoe UI"
+font-size="18"
+fill="#38BDF8">
 
-<text x="40" y="135" fill="white" font-size="18">React</text>
+70%
 
-<rect x="220" y="119" width="400" height="18" rx="10" fill="#1E293B"/>
+</text>
 
-<rect x="220" y="119" width="340" height="18" rx="10" fill="url(#bar)">
-<animate attributeName="width"
-values="0;340"
+<!-- ================================================= -->
+<!-- AI -->
+<!-- ================================================= -->
+
+<text
+x="60"
+y="440"
+font-family="Segoe UI"
+font-size="22"
+fill="white">
+
+AI / LLMs
+
+</text>
+
+<rect
+x="250"
+y="420"
+width="560"
+height="18"
+rx="9"
+fill="#1E293B"/>
+
+<rect
+x="250"
+y="420"
+width="470"
+height="18"
+rx="9"
+fill="url(#bar)">
+
+<animate
+attributeName="width"
+values="0;470"
 dur="2.2s"
 fill="freeze"/>
+
 </rect>
 
-<!-- Next -->
+<text
+x="830"
+y="436"
+text-anchor="end"
+font-family="Segoe UI"
+font-size="18"
+fill="#38BDF8">
 
-<text x="40" y="180" fill="white" font-size="18">Next.js</text>
+85%
 
-<rect x="220" y="164" width="400" height="18" rx="10" fill="#1E293B"/>
+</text>
 
-<rect x="220" y="164" width="320" height="18" rx="10" fill="url(#bar)">
-<animate attributeName="width"
-values="0;320"
-dur="2.4s"
-fill="freeze"/>
-</rect>
+<!-- ================================================= -->
+<!-- BACKGROUND GLOWS -->
+<!-- ================================================= -->
 
-<!-- Node -->
+<circle
+cx="130"
+cy="70"
+r="70"
+fill="#3B82F6"
+opacity=".05"/>
 
-<text x="40" y="225" fill="white" font-size="18">Node.js</text>
+<circle
+cx="760"
+cy="330"
+r="90"
+fill="#8B5CF6"
+opacity=".06"/>
 
-<rect x="220" y="209" width="400" height="18" rx="10" fill="#1E293B"/>
+<circle
+cx="450"
+cy="220"
+r="120"
+fill="#22D3EE"
+opacity=".03"/>
 
-<rect x="220" y="209" width="300" height="18" rx="10" fill="url(#bar)">
-<animate attributeName="width"
-values="0;300"
-dur="2.6s"
-fill="freeze"/>
-</rect>
+<!-- ================================================= -->
+<!-- FOOTER -->
+<!-- ================================================= -->
 
-<!-- Java -->
+<text
+x="450"
+y="470"
+text-anchor="middle"
+font-family="Segoe UI"
+font-size="16"
+fill="#64748B">
 
-<text x="40" y="270" fill="white" font-size="18">Java</text>
+Learning • Building • Improving
 
-<rect x="220" y="254" width="400" height="18" rx="10" fill="#1E293B"/>
-
-<rect x="220" y="254" width="280" height="18" rx="10" fill="url(#bar)">
-<animate attributeName="width"
-values="0;280"
-dur="2.8s"
-fill="freeze"/>
-</rect>
-
-<!-- MongoDB -->
-
-<text x="40" y="315" fill="white" font-size="18">MongoDB</text>
-
-<rect x="220" y="299" width="400" height="18" rx="10" fill="#1E293B"/>
-
-<rect x="220" y="299" width="250" height="18" rx="10" fill="url(#bar)">
-<animate attributeName="width"
-values="0;250"
-dur="3s"
-fill="freeze"/>
-</rect>
+</text>
 
 </svg>

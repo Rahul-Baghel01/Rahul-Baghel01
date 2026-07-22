@@ -1,120 +1,697 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 1600 500">
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg
+xmlns="http://www.w3.org/2000/svg"
+width="1600"
+height="500"
+viewBox="0 0 1600 500">
 
 <defs>
 
-<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-<stop offset="0%" stop-color="#ffffff"/>
-<stop offset="100%" stop-color="#eef6ff"/>
+<!-- Background -->
+
+<linearGradient
+id="bg"
+x1="0%"
+y1="0%"
+x2="100%"
+y2="100%">
+
+<stop offset="0%" stop-color="#F8FAFC"/>
+
+<stop offset="50%" stop-color="#EEF6FF"/>
+
+<stop offset="100%" stop-color="#E0EAFF"/>
+
 </linearGradient>
 
-<linearGradient id="text">
-<stop offset="0%" stop-color="#2563eb"/>
-<stop offset="100%" stop-color="#7c3aed"/>
+<!-- Hero -->
+
+<linearGradient
+id="heroText"
+x1="0%"
+y1="0%"
+x2="100%"
+y2="0%">
+
+<stop offset="0%" stop-color="#2563EB"/>
+
+<stop offset="100%" stop-color="#7C3AED"/>
+
 </linearGradient>
 
-<filter id="glow">
-<feGaussianBlur stdDeviation="6" result="coloredBlur"/>
-<feMerge>
-<feMergeNode in="coloredBlur"/>
-<feMergeNode in="SourceGraphic"/>
-</feMerge>
+<!-- Card -->
+
+<linearGradient
+id="card"
+x1="0%"
+y1="0%"
+x2="100%"
+y2="100%">
+
+<stop offset="0%" stop-color="#FFFFFF"/>
+
+<stop offset="100%" stop-color="#F1F5F9"/>
+
+</linearGradient>
+
+<!-- Blue -->
+
+<radialGradient id="blueGlow">
+
+<stop offset="0%" stop-color="#60A5FA" stop-opacity=".28"/>
+
+<stop offset="100%" stop-color="#60A5FA" stop-opacity="0"/>
+
+</radialGradient>
+
+<!-- Purple -->
+
+<radialGradient id="purpleGlow">
+
+<stop offset="0%" stop-color="#A855F7" stop-opacity=".22"/>
+
+<stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+
+</radialGradient>
+
+<!-- Grid -->
+
+<pattern
+id="grid"
+width="50"
+height="50"
+patternUnits="userSpaceOnUse">
+
+<path
+d="M50 0H0V50"
+fill="none"
+stroke="#2563EB"
+stroke-opacity=".06"
+stroke-width="1"/>
+
+</pattern>
+
+<!-- Shadow -->
+
+<filter id="shadow">
+
+<feDropShadow
+dx="0"
+dy="8"
+stdDeviation="10"
+flood-opacity=".18"/>
+
 </filter>
 
 </defs>
 
-<rect width="1600" height="500" fill="url(#bg)"/>
+<!-- Background -->
+
+<rect
+width="1600"
+height="500"
+fill="url(#bg)"/>
+
+<!-- Blue Glow -->
+
+<circle
+cx="220"
+cy="120"
+r="240"
+fill="url(#blueGlow)">
+
+<animate
+attributeName="opacity"
+values=".18;.32;.18"
+dur="8s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<!-- Purple Glow -->
+
+<circle
+cx="1380"
+cy="340"
+r="260"
+fill="url(#purpleGlow)">
+
+<animate
+attributeName="opacity"
+values=".15;.28;.15"
+dur="10s"
+repeatCount="indefinite"/>
+
+</circle>
 
 <!-- Grid -->
 
-<g opacity=".08" stroke="#2563eb">
+<rect
+width="1600"
+height="500"
+fill="url(#grid)"/>
 
-<path d="M0 50H1600"/>
-<path d="M0 100H1600"/>
-<path d="M0 150H1600"/>
-<path d="M0 200H1600"/>
-<path d="M0 250H1600"/>
-<path d="M0 300H1600"/>
-<path d="M0 350H1600"/>
-<path d="M0 400H1600"/>
-<path d="M0 450H1600"/>
+<!-- Floating Particles -->
+
+<g fill="#2563EB">
+
+<circle cx="80" cy="60" r="2">
+<animate attributeName="cy"
+values="60;40;60"
+dur="8s"
+repeatCount="indefinite"/>
+</circle>
+
+<circle cx="220" cy="180" r="3">
+<animate attributeName="cy"
+values="180;155;180"
+dur="10s"
+repeatCount="indefinite"/>
+</circle>
+
+<circle cx="380" cy="90" r="2">
+<animate attributeName="cy"
+values="90;60;90"
+dur="9s"
+repeatCount="indefinite"/>
+</circle>
+
+<circle cx="600" cy="250" r="3">
+<animate attributeName="cy"
+values="250;220;250"
+dur="11s"
+repeatCount="indefinite"/>
+</circle>
+
+<circle cx="820" cy="120" r="2">
+<animate attributeName="cy"
+values="120;90;120"
+dur="8s"
+repeatCount="indefinite"/>
+</circle>
+
+<circle cx="1050" cy="320" r="3">
+<animate attributeName="cy"
+values="320;290;320"
+dur="9s"
+repeatCount="indefinite"/>
+</circle>
+
+<circle cx="1320" cy="150" r="2">
+<animate attributeName="cy"
+values="150;120;150"
+dur="8s"
+repeatCount="indefinite"/>
+</circle>
+
+<circle cx="1500" cy="280" r="3">
+<animate attributeName="cy"
+values="280;250;280"
+dur="10s"
+repeatCount="indefinite"/>
+</circle>
 
 </g>
 
-<!-- Floating particles -->
+<!-- ================================================= -->
+<!-- HERO SECTION -->
+<!-- ================================================= -->
 
-<circle cx="180" cy="120" r="10" fill="#2563eb">
+<g filter="url(#shadow)">
 
-<animate attributeName="cy"
-values="120;95;120"
-dur="5s"
-repeatCount="indefinite"/>
+  <text
+      x="120"
+      y="150"
+      font-family="Segoe UI"
+      font-size="72"
+      font-weight="700"
+      fill="url(#heroText)">
 
-</circle>
+      Rahul Baghel
 
-<circle cx="1450" cy="340" r="12" fill="#7c3aed">
+  </text>
 
-<animate attributeName="cy"
-values="340;315;340"
-dur="6s"
-repeatCount="indefinite"/>
+  <text
+      x="120"
+      y="205"
+      font-family="Segoe UI"
+      font-size="30"
+      fill="#334155">
 
-</circle>
+      Full Stack Developer • AI Engineer
 
-<!-- Name -->
+  </text>
 
-<text x="800"
-y="185"
-text-anchor="middle"
-font-size="64"
-font-family="Segoe UI"
-font-weight="700"
-fill="url(#text)"
-filter="url(#glow)">
+  <text
+      x="120"
+      y="245"
+      font-family="Segoe UI"
+      font-size="22"
+      fill="#64748B">
 
-Rahul Baghel
+      Building AI-powered products with modern web technologies.
 
-</text>
+  </text>
 
-<!-- Subtitle -->
+</g>
+
+<!-- ================================================= -->
+<!-- BUTTONS -->
+<!-- ================================================= -->
+
+<g>
+
+  <!-- Open to Internship -->
+
+  <rect
+      x="120"
+      y="290"
+      width="250"
+      height="52"
+      rx="26"
+      fill="#2563EB"/>
+
+  <text
+      x="245"
+      y="323"
+      text-anchor="middle"
+      font-family="Segoe UI"
+      font-size="20"
+      fill="#FFFFFF">
+
+      🚀 Open to Internship
+
+  </text>
+
+  <!-- GitHub -->
+
+  <rect
+      x="390"
+      y="290"
+      width="150"
+      height="52"
+      rx="26"
+      fill="#FFFFFF"
+      stroke="#CBD5E1"
+      stroke-width="2"/>
+
+  <text
+      x="465"
+      y="323"
+      text-anchor="middle"
+      font-family="Segoe UI"
+      font-size="18"
+      fill="#1E293B">
+
+      GitHub
+
+  </text>
+
+  <!-- LinkedIn -->
+
+  <rect
+      x="560"
+      y="290"
+      width="170"
+      height="52"
+      rx="26"
+      fill="#FFFFFF"
+      stroke="#CBD5E1"
+      stroke-width="2"/>
+
+  <text
+      x="645"
+      y="323"
+      text-anchor="middle"
+      font-family="Segoe UI"
+      font-size="18"
+      fill="#1E293B">
+
+      LinkedIn
+
+  </text>
+
+</g>
+
+<!-- ================================================= -->
+<!-- SKILL PILLS -->
+<!-- ================================================= -->
+
+<g font-family="Segoe UI" font-size="18">
+
+  <rect x="120" y="390" rx="18" width="95" height="38" fill="#2563EB"/>
+  <text x="168" y="415" text-anchor="middle" fill="white">React</text>
+
+  <rect x="230" y="390" rx="18" width="110" height="38" fill="#4F46E5"/>
+  <text x="285" y="415" text-anchor="middle" fill="white">Next.js</text>
+
+  <rect x="355" y="390" rx="18" width="95" height="38" fill="#0EA5E9"/>
+  <text x="403" y="415" text-anchor="middle" fill="white">Node.js</text>
+
+  <rect x="465" y="390" rx="18" width="80" height="38" fill="#059669"/>
+  <text x="505" y="415" text-anchor="middle" fill="white">Java</text>
+
+  <rect x="560" y="390" rx="18" width="120" height="38" fill="#7C3AED"/>
+  <text x="620" y="415" text-anchor="middle" fill="white">MongoDB</text>
+
+  <rect x="695" y="390" rx="18" width="65" height="38" fill="#0891B2"/>
+  <text x="728" y="415" text-anchor="middle" fill="white">AI</text>
+
+</g>
+
+<!-- ================================================= -->
+<!-- VS CODE WINDOW -->
+<!-- ================================================= -->
+
+<g filter="url(#shadow)">
+
+  <!-- Window -->
+
+  <rect
+      x="900"
+      y="70"
+      width="600"
+      height="340"
+      rx="20"
+      fill="url(#card)"
+      stroke="#CBD5E1"
+      stroke-width="2"/>
+
+  <!-- Title Bar -->
+
+  <rect
+      x="900"
+      y="70"
+      width="600"
+      height="42"
+      rx="20"
+      fill="#F8FAFC"/>
+
+  <!-- Mac Buttons -->
+
+  <circle cx="930" cy="91" r="6" fill="#FF5F56"/>
+  <circle cx="952" cy="91" r="6" fill="#FFBD2E"/>
+  <circle cx="974" cy="91" r="6" fill="#27C93F"/>
+
+  <text
+      x="1200"
+      y="97"
+      text-anchor="middle"
+      font-family="Segoe UI"
+      font-size="16"
+      fill="#64748B">
+
+      developer.ts
+
+  </text>
+
+  <!-- Line Numbers -->
+
+  <g
+      font-family="Consolas"
+      font-size="18"
+      fill="#94A3B8">
+
+      <text x="930" y="145">1</text>
+      <text x="930" y="175">2</text>
+      <text x="930" y="205">3</text>
+      <text x="930" y="235">4</text>
+      <text x="930" y="265">5</text>
+      <text x="930" y="295">6</text>
+      <text x="930" y="325">7</text>
+
+  </g>
+
+  <!-- Code -->
+
+  <g
+      font-family="Consolas"
+      font-size="20">
+
+      <text x="970" y="145" fill="#2563EB">
+const
+      </text>
+
+      <text x="1040" y="145" fill="#111827">
+developer
+      </text>
+
+      <text x="1165" y="145" fill="#EA580C">
+=
+      </text>
+
+      <text x="1195" y="145" fill="#111827">
+{
+      </text>
+
+      <text x="1000" y="175" fill="#7C3AED">
+name:
+      </text>
+
+      <text x="1110" y="175" fill="#0891B2">
+"Rahul Baghel",
+      </text>
+
+      <text x="1000" y="205" fill="#7C3AED">
+role:
+      </text>
+
+      <text x="1110" y="205" fill="#0891B2">
+"Full Stack",
+      </text>
+
+      <text x="1000" y="235" fill="#7C3AED">
+focus:
+      </text>
+
+      <text x="1110" y="235" fill="#0891B2">
+"AI Products",
+      </text>
+
+      <text x="1000" y="265" fill="#7C3AED">
+stack:
+      </text>
+
+      <text x="1110" y="265" fill="#0891B2">
+["React","Node"],
+      </text>
+
+      <text x="1000" y="295" fill="#7C3AED">
+status:
+      </text>
+
+      <text x="1110" y="295" fill="#059669">
+"Open to Internship"
+      </text>
+
+      <text x="970" y="325" fill="#111827">
+}
+      </text>
+
+  </g>
+
+  <!-- Blinking Cursor -->
+
+  <rect
+      x="990"
+      y="309"
+      width="3"
+      height="22"
+      fill="#2563EB">
+
+      <animate
+          attributeName="opacity"
+          values="1;0;1"
+          dur="1s"
+          repeatCount="indefinite"/>
+
+  </rect>
+
+</g>
+
+<!-- ================================================= -->
+<!-- FLOATING TECH BADGES -->
+<!-- ================================================= -->
+
+<g font-family="Segoe UI" font-size="15" font-weight="600">
+
+  <!-- React -->
+  <g>
+    <circle cx="860" cy="60" r="24" fill="#FFFFFF" stroke="#61DAFB" stroke-width="2"/>
+    <text x="860" y="66" text-anchor="middle" fill="#0EA5E9">R</text>
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;0 -8;0 0"
+        dur="6s"
+        repeatCount="indefinite"/>
+
+  </g>
+
+  <!-- Next -->
+
+  <g>
+
+    <circle
+        cx="1480"
+        cy="45"
+        r="24"
+        fill="#FFFFFF"
+        stroke="#111827"
+        stroke-width="2"/>
+
+    <text
+        x="1480"
+        y="51"
+        text-anchor="middle"
+        fill="#111827">
+
+        N
+
+    </text>
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;0 8;0 0"
+        dur="7s"
+        repeatCount="indefinite"/>
+
+  </g>
+
+  <!-- Node -->
+
+  <g>
+
+    <circle
+        cx="1520"
+        cy="430"
+        r="24"
+        fill="#FFFFFF"
+        stroke="#22C55E"
+        stroke-width="2"/>
+
+    <text
+        x="1520"
+        y="436"
+        text-anchor="middle"
+        fill="#22C55E">
+
+        Node
+
+    </text>
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;0 -8;0 0"
+        dur="8s"
+        repeatCount="indefinite"/>
+
+  </g>
+
+  <!-- Java -->
+
+  <g>
+
+    <circle
+        cx="860"
+        cy="430"
+        r="24"
+        fill="#FFFFFF"
+        stroke="#EA580C"
+        stroke-width="2"/>
+
+    <text
+        x="860"
+        y="436"
+        text-anchor="middle"
+        fill="#EA580C">
+
+        J
+
+    </text>
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;0 8;0 0"
+        dur="7.5s"
+        repeatCount="indefinite"/>
+
+  </g>
+
+</g>
+
+<!-- ================================================= -->
+<!-- AI ORB -->
+<!-- ================================================= -->
+
+<g>
+
+  <circle
+      cx="1260"
+      cy="430"
+      r="48"
+      fill="#60A5FA"
+      opacity=".15">
+
+      <animate
+          attributeName="r"
+          values="45;55;45"
+          dur="5s"
+          repeatCount="indefinite"/>
+
+  </circle>
+
+  <circle
+      cx="1260"
+      cy="430"
+      r="20"
+      fill="#2563EB">
+
+      <animate
+          attributeName="opacity"
+          values=".5;1;.5"
+          dur="3s"
+          repeatCount="indefinite"/>
+
+  </circle>
+
+</g>
+
+<!-- ================================================= -->
+<!-- DECORATIVE LINES -->
+<!-- ================================================= -->
+
+<g
+stroke="#60A5FA"
+stroke-opacity=".18"
+stroke-width="1">
+
+<line x1="820" y1="250" x2="900" y2="170"/>
+
+<line x1="1460" y1="110" x2="1510" y2="220"/>
+
+<line x1="790" y1="420" x2="900" y2="330"/>
+
+</g>
+
+<!-- ================================================= -->
+<!-- FOOTER -->
+<!-- ================================================= -->
 
 <text
-x="800"
-y="250"
-text-anchor="middle"
-font-size="28"
-fill="#334155"
-font-family="Segoe UI">
+    x="800"
+    y="485"
+    text-anchor="middle"
+    font-family="Segoe UI"
+    font-size="16"
+    fill="#64748B">
 
-Full Stack Developer • AI Enthusiast
-
-</text>
-
-<!-- Skills -->
-
-<text
-x="800"
-y="300"
-text-anchor="middle"
-font-size="22"
-fill="#475569"
-font-family="Segoe UI">
-
-React • Next.js • Node.js • Java • MongoDB
-
-</text>
-
-<!-- Footer -->
-
-<text
-x="800"
-y="390"
-text-anchor="middle"
-font-size="24"
-fill="#2563eb"
-font-family="Segoe UI">
-
-Building Intelligent Web Experiences 🚀
+Designed &amp; Built by Rahul Baghel • 2026
 
 </text>
 
