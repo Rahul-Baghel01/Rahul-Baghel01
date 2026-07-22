@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350">
+
+<defs>
+
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#0F172A"/>
+<stop offset="100%" stop-color="#1E1B4B"/>
+</linearGradient>
+
+<linearGradient id="border">
+<stop offset="0%" stop-color="#3B82F6"/>
+<stop offset="100%" stop-color="#8B5CF6"/>
+</linearGradient>
+
+<filter id="shadow">
+<feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity=".45"/>
+</filter>
+
+</defs>
+
+<!-- Border -->
+
+<rect
+x="5"
+y="5"
+width="690"
+height="340"
+rx="28"
+fill="url(#border)"/>
+
+<!-- Card -->
+
+<rect
+x="10"
+y="10"
+width="680"
+height="330"
+rx="24"
+fill="url(#bg)"
+filter="url(#shadow)"/>
+
+<!-- Title -->
+
+<text
+x="350"
+y="50"
+text-anchor="middle"
+font-size="28"
+fill="#38BDF8"
+font-family="Segoe UI"
+font-weight="700">
+
+GitHub Dashboard
+
+</text>
+
+<!-- Divider -->
+
+<line
+x1="40"
+y1="70"
+x2="660"
+y2="70"
+stroke="#334155"/>
+
+<!-- Left Column -->
+
+<text x="60" y="120" fill="white" font-size="18">📦 Repositories</text>
+<text x="290" y="120" fill="#60A5FA" font-size="18">XX</text>
+
+<text x="60" y="165" fill="white" font-size="18">⭐ Stars</text>
+<text x="290" y="165" fill="#60A5FA" font-size="18">XX</text>
+
+<text x="60" y="210" fill="white" font-size="18">👥 Followers</text>
+<text x="290" y="210" fill="#60A5FA" font-size="18">XX</text>
+
+<text x="60" y="255" fill="white" font-size="18">🔥 Contributions</text>
+<text x="290" y="255" fill="#60A5FA" font-size="18">XXXX</text>
+
+<!-- Right Column -->
+
+<text x="390" y="120" fill="white" font-size="18">💻 Experience</text>
+<text x="620" y="120" fill="#A78BFA" font-size="18">3+ Years</text>
+
+<text x="390" y="165" fill="white" font-size="18">🚀 Internship</text>
+<text x="620" y="165" fill="#22C55E" font-size="18">Open</text>
+
+<text x="390" y="210" fill="white" font-size="18">🤖 AI Projects</text>
+<text x="620" y="210" fill="#A78BFA" font-size="18">Yes</text>
+
+<text x="390" y="255" fill="white" font-size="18">🌍 Open Source</text>
+<text x="620" y="255" fill="#22C55E" font-size="18">Active</text>
+
+<!-- Bottom Badge -->
+
+<rect
+x="170"
+y="290"
+rx="18"
+width="360"
+height="36"
+fill="#2563EB">
+
+<animate
+attributeName="opacity"
+values="1;.7;1"
+dur="3s"
+repeatCount="indefinite"/>
+
+</rect>
+
+<text
+x="350"
+y="314"
+text-anchor="middle"
+fill="white"
+font-size="17"
+font-family="Segoe UI">
+
+Building AI Products 🚀
+
+</text>
+
+</svg>

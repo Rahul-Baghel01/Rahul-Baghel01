@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1600 500">
+
+<defs>
+
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#09090f"/>
+<stop offset="100%" stop-color="#1d1245"/>
+</linearGradient>
+
+<linearGradient id="text">
+<stop offset="0%" stop-color="#60a5fa"/>
+<stop offset="100%" stop-color="#a855f7"/>
+</linearGradient>
+
+<filter id="glow">
+<feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+<feMerge>
+<feMergeNode in="coloredBlur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+
+</defs>
+
+<rect width="1600" height="500" fill="url(#bg)"/>
+
+<!-- Grid -->
+
+<g opacity=".07">
+
+<path d="M0 50H1600"/>
+
+<path d="M0 100H1600"/>
+
+<path d="M0 150H1600"/>
+
+<path d="M0 200H1600"/>
+
+<path d="M0 250H1600"/>
+
+<path d="M0 300H1600"/>
+
+<path d="M0 350H1600"/>
+
+<path d="M0 400H1600"/>
+
+<path d="M0 450H1600"/>
+
+</g>
+
+<!-- Floating circles -->
+
+<circle cx="180" cy="120" r="10" fill="#60a5fa">
+
+<animate attributeName="cy"
+values="120;100;120"
+dur="6s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<circle cx="1450" cy="350" r="12" fill="#a855f7">
+
+<animate attributeName="cy"
+values="350;330;350"
+dur="5s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<!-- Name -->
+
+<text x="800"
+y="190"
+text-anchor="middle"
+font-size="64"
+font-family="Segoe UI"
+font-weight="700"
+fill="url(#text)"
+filter="url(#glow)">
+
+Rahul Baghel
+
+</text>
+
+<!-- Subtitle -->
+
+<text x="800"
+y="255"
+text-anchor="middle"
+font-size="28"
+fill="#ffffff"
+font-family="Segoe UI">
+
+Full Stack Developer • AI Enthusiast
+
+</text>
+
+<!-- Skills -->
+
+<text x="800"
+y="305"
+text-anchor="middle"
+font-size="22"
+fill="#94a3b8"
+font-family="Segoe UI">
+
+React • Next.js • Node.js • Java • MongoDB
+
+</text>
+
+<!-- Footer -->
+
+<text x="800"
+y="390"
+text-anchor="middle"
+font-size="24"
+fill="#38bdf8"
+font-family="Segoe UI">
+
+Building Intelligent Web Experiences 🚀
+
+</text>
+
+</svg>

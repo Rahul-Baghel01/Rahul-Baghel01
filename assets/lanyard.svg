@@ -1,0 +1,199 @@
+<svg width="360" height="620" viewBox="0 0 360 620" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+
+    <linearGradient id="chipGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+
+  </defs>
+
+  <!-- Floating animation -->
+  <g filter="url(#shadow)">
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0 0;0 -10;0 0"
+      dur="4s"
+      repeatCount="indefinite"/>
+
+    <!-- Border -->
+    <rect
+      x="10"
+      y="10"
+      rx="30"
+      width="340"
+      height="600"
+      fill="url(#borderGradient)"/>
+
+    <!-- Glass card -->
+    <rect
+      x="18"
+      y="18"
+      rx="24"
+      width="324"
+      height="584"
+      fill="#111827"
+      fill-opacity="0.96"/>
+
+    <!-- Header -->
+    <text
+      x="180"
+      y="55"
+      text-anchor="middle"
+      font-size="22"
+      font-family="Segoe UI"
+      fill="#38BDF8"
+      font-weight="700">
+
+      DEVELOPER ID
+
+    </text>
+
+    <!-- Avatar -->
+    <circle
+      cx="180"
+      cy="140"
+      r="56"
+      fill="#1F2937"
+      stroke="#3B82F6"
+      stroke-width="4"/>
+
+    <text
+      x="180"
+      y="152"
+      text-anchor="middle"
+      font-size="48">
+
+      👨‍💻
+
+    </text>
+
+    <!-- Name -->
+    <text
+      x="180"
+      y="235"
+      text-anchor="middle"
+      font-size="28"
+      font-family="Segoe UI"
+      fill="#FFFFFF"
+      font-weight="700">
+
+      Rahul Baghel
+
+    </text>
+
+    <!-- Role -->
+    <text
+      x="180"
+      y="268"
+      text-anchor="middle"
+      font-size="18"
+      fill="#9CA3AF"
+      font-family="Segoe UI">
+
+      Full Stack Developer
+
+    </text>
+
+    <!-- Badge -->
+    <rect
+      x="92"
+      y="292"
+      rx="18"
+      width="176"
+      height="34"
+      fill="#0F766E"/>
+
+    <text
+      x="180"
+      y="314"
+      text-anchor="middle"
+      fill="white"
+      font-size="15"
+      font-family="Segoe UI">
+
+      🚀 Open to Internship
+
+    </text>
+
+    <!-- Skills -->
+    <text
+      x="35"
+      y="360"
+      font-size="18"
+      fill="#38BDF8"
+      font-family="Segoe UI"
+      font-weight="700">
+
+      Skills
+
+    </text>
+
+    <!-- Row 1 -->
+    <rect x="35" y="380" rx="12" width="90" height="34" fill="url(#chipGradient)"/>
+    <text x="80" y="402" text-anchor="middle" fill="white" font-size="14">React</text>
+
+    <rect x="140" y="380" rx="12" width="90" height="34" fill="url(#chipGradient)"/>
+    <text x="185" y="402" text-anchor="middle" fill="white" font-size="14">Next.js</text>
+
+    <rect x="245" y="380" rx="12" width="80" height="34" fill="url(#chipGradient)"/>
+    <text x="285" y="402" text-anchor="middle" fill="white" font-size="14">Node</text>
+
+    <!-- Row 2 -->
+    <rect x="35" y="425" rx="12" width="90" height="34" fill="url(#chipGradient)"/>
+    <text x="80" y="447" text-anchor="middle" fill="white" font-size="14">Java</text>
+
+    <rect x="140" y="425" rx="12" width="120" height="34" fill="url(#chipGradient)"/>
+    <text x="200" y="447" text-anchor="middle" fill="white" font-size="14">MongoDB</text>
+
+    <rect x="275" y="425" rx="12" width="50" height="34" fill="url(#chipGradient)"/>
+    <text x="300" y="447" text-anchor="middle" fill="white" font-size="14">AI</text>
+
+    <!-- QR Placeholder -->
+    <rect
+      x="120"
+      y="485"
+      width="120"
+      height="120"
+      rx="12"
+      fill="#FFFFFF"/>
+
+    <text
+      x="180"
+      y="550"
+      text-anchor="middle"
+      fill="#111827"
+      font-size="14"
+      font-family="Segoe UI">
+
+      QR CODE
+
+    </text>
+
+    <!-- Footer -->
+    <text
+      x="180"
+      y="590"
+      text-anchor="middle"
+      fill="#38BDF8"
+      font-size="16"
+      font-family="Segoe UI">
+
+      github.com/Rahul-Baghel01
+
+    </text>
+
+  </g>
+
+</svg>

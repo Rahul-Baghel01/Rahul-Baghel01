@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350">
+
+<defs>
+
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#0F172A"/>
+<stop offset="100%" stop-color="#111827"/>
+</linearGradient>
+
+<linearGradient id="bar">
+<stop offset="0%" stop-color="#3B82F6"/>
+<stop offset="100%" stop-color="#8B5CF6"/>
+</linearGradient>
+
+<filter id="shadow">
+<feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity=".4"/>
+</filter>
+
+</defs>
+
+<!-- Card -->
+<rect x="5" y="5" width="690" height="340" rx="26"
+fill="url(#bg)" filter="url(#shadow)"/>
+
+<!-- Title -->
+<text
+x="350"
+y="42"
+text-anchor="middle"
+font-size="28"
+fill="#38BDF8"
+font-family="Segoe UI"
+font-weight="700">
+
+Tech Stack
+
+</text>
+
+<!-- JS -->
+
+<text x="40" y="90" fill="white" font-size="18">JavaScript</text>
+
+<rect x="220" y="74" width="400" height="18" rx="10" fill="#1E293B"/>
+
+<rect x="220" y="74" width="360" height="18" rx="10" fill="url(#bar)">
+<animate attributeName="width"
+values="0;360"
+dur="2s"
+fill="freeze"/>
+</rect>
+
+<!-- React -->
+
+<text x="40" y="135" fill="white" font-size="18">React</text>
+
+<rect x="220" y="119" width="400" height="18" rx="10" fill="#1E293B"/>
+
+<rect x="220" y="119" width="340" height="18" rx="10" fill="url(#bar)">
+<animate attributeName="width"
+values="0;340"
+dur="2.2s"
+fill="freeze"/>
+</rect>
+
+<!-- Next -->
+
+<text x="40" y="180" fill="white" font-size="18">Next.js</text>
+
+<rect x="220" y="164" width="400" height="18" rx="10" fill="#1E293B"/>
+
+<rect x="220" y="164" width="320" height="18" rx="10" fill="url(#bar)">
+<animate attributeName="width"
+values="0;320"
+dur="2.4s"
+fill="freeze"/>
+</rect>
+
+<!-- Node -->
+
+<text x="40" y="225" fill="white" font-size="18">Node.js</text>
+
+<rect x="220" y="209" width="400" height="18" rx="10" fill="#1E293B"/>
+
+<rect x="220" y="209" width="300" height="18" rx="10" fill="url(#bar)">
+<animate attributeName="width"
+values="0;300"
+dur="2.6s"
+fill="freeze"/>
+</rect>
+
+<!-- Java -->
+
+<text x="40" y="270" fill="white" font-size="18">Java</text>
+
+<rect x="220" y="254" width="400" height="18" rx="10" fill="#1E293B"/>
+
+<rect x="220" y="254" width="280" height="18" rx="10" fill="url(#bar)">
+<animate attributeName="width"
+values="0;280"
+dur="2.8s"
+fill="freeze"/>
+</rect>
+
+<!-- MongoDB -->
+
+<text x="40" y="315" fill="white" font-size="18">MongoDB</text>
+
+<rect x="220" y="299" width="400" height="18" rx="10" fill="#1E293B"/>
+
+<rect x="220" y="299" width="250" height="18" rx="10" fill="url(#bar)">
+<animate attributeName="width"
+values="0;250"
+dur="3s"
+fill="freeze"/>
+</rect>
+
+</svg>
