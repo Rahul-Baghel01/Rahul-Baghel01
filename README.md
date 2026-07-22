@@ -1,39 +1,84 @@
 <div align="center">
 
-# 👋 Hi, I'm Rahul Baghel
+<h1>
+  Hi 👋, I'm Rahul Baghel
+</h1>
 
-### AI & Full Stack Developer
+<h3>
+AI & Full Stack Developer
+</h3>
 
 <p>
-Building AI-Powered Applications for Real-World Impact
+Building AI-powered applications with modern web technologies.
 </p>
+
+<p>
+
+<a href="https://github.com/Rahul-Baghel01">
+<img src="https://img.shields.io/github/followers/Rahul-Baghel01?label=Followers&style=for-the-badge"/>
+</a>
+
+<img src="https://komarev.com/ghpvc/?username=Rahul-Baghel01&style=for-the-badge"/>
+
+</p>
+
+<img
+src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1200&color=00E5FF&center=true&vCenter=true&width=650&lines=AI+Developer;Full+Stack+Developer;Java+%7C+React+%7C+Next.js;Building+Real+World+Projects"
+/>
 
 </div>
 
 ---
 
-## 🚀 About Me
+## 💫 About Me
 
-- 🎓 B.Tech CSE Student
-- 💻 Full Stack Developer
-- 🤖 AI Enthusiast
-- 🌱 Learning System Design
-- 🚀 Looking for Software Engineering Internship
+I'm a **B.Tech Computer Science student** passionate about building **AI-powered** and **full-stack web applications**.
+
+- 🎓 B.Tech CSE (3rd Year)
+- 💻 Exploring AI, Web Development & System Design
+- 🚀 Currently looking for a Software Engineering Internship
+- 🌱 Building projects that solve real-world problems
+- ⚡ Always learning something new
 
 ---
 
 ## 🛠 Tech Stack
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,js,react,nextjs,nodejs,express,mongodb,mysql,firebase,tailwind,git,github,vscode" />
+## 🛠️ Tech Stack
+
+### Languages
+
+<p>
+<img src="https://skillicons.dev/icons?i=java,js,ts"/>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Vapi-000000?style=for-the-badge"/>
+### Frontend
+
+<p>
+<img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind"/>
 </p>
+
+### Backend
+
+<p>
+<img src="https://skillicons.dev/icons?i=nodejs,express"/>
+</p>
+
+### Database
+
+<p>
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,firebase"/>
+</p>
+
+### Tools
+
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,vscode"/>
+</p>
+
+### AI
+
+OpenAI • Gemini • Groq • Vapi • LangChain
 
 ---
 
