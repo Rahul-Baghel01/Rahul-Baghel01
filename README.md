@@ -1,218 +1,63 @@
-<div align="center">
+# Hi there, I'm Rahul 👋
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=gradient&customColorList=12,20,24,30&text=Rahul%20Baghel&fontAlignY=38&fontSize=55&desc=Full%20Stack%20Developer%20|%20Java%20|%20AI%20|%20Machine%20Learning&descAlignY=58&animation=fadeIn"/>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=28&duration=3500&pause=1000&color=8A2BE2&center=true&vCenter=true&width=900&lines=AI+Engineer;Full+Stack+Developer;Java+Developer;Generative+AI+Enthusiast;Building+AI-Powered+Applications)](https://git.io/typing-svg)
-
-</div>
+### Full Stack Developer | Turning Ideas into AI-Powered Applications 🚀
 
 ---
 
-<div align="center">
+### 🚀 About Me
 
-![](https://komarev.com/ghpvc/?username=Rahul-Baghel01&style=for-the-badge&color=7F3FBF)
-
-![](https://img.shields.io/github/followers/Rahul-Baghel01?style=for-the-badge&color=7F3FBF)
-
-![](https://img.shields.io/github/stars/Rahul-Baghel01?style=for-the-badge&color=7F3FBF)
-
-</div>
+I'm a B.Tech Computer Science student passionate about building intelligent, user-friendly software. I focus on full stack development and love integrating AI and LLMs — like voice interviews and smart feedback systems — into real, working products.
 
 ---
 
-<div align="center">
+### 🛠️ Tech Stack
 
-# Rahul Baghel
+**Languages:**
 
-### Full Stack Developer • Java Developer • AI & Machine Learning Enthusiast
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
-Orai, Uttar Pradesh, India
+**Frontend:**
 
-</div>
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Tailwind](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 
----
+**Backend & Database:**
 
-<div align="center">
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-<a href="https://github.com/Rahul-Baghel01">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
-</a>
+**AI & Tools:**
 
-<a href="https://www.linkedin.com/in/rahul-baghel-6694a9343/">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
-</a>
-
-<a href="mailto:rahulorai03@gmail.com">
-<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail"/>
-</a>
-
-</div>
-
----
-
-# About Me
-
-I am a **B.Tech Computer Science student** at **Pranveer Singh Institute of Technology (PSIT)** with a strong passion for **Artificial Intelligence**, **Generative AI**, and **Full Stack Development**.
-
-I enjoy building intelligent software that solves real-world problems. My recent projects include **PrepWise**, an AI-powered mock interview platform featuring voice interviews, resume analysis, personalized question generation, and AI-based feedback, along with **SecureChat**, a real-time messaging application.
-
-I am continuously exploring **Large Language Models (LLMs)**, **Prompt Engineering**, **Backend Development**, and scalable software architecture while improving my problem-solving skills through coding platforms and hands-on projects.
-
-### Currently Open To
-
-- Software Engineering Internship
-- Full Stack Developer Internship
-- AI / Machine Learning Internship
-- Open Source Collaboration
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
 ---
 
-# 💻 Tech Stack
+### 🌟 What I Do
 
-<div align="center">
-
-## Languages
-
-<img src="https://skillicons.dev/icons?i=java,js"/>
-
-## Frontend
-
-<img src="https://skillicons.dev/icons?i=html,css,tailwind,react,nextjs"/>
-
-## Backend
-
-<img src="https://skillicons.dev/icons?i=nodejs,express"/>
-
-## Databases
-
-<img src="https://skillicons.dev/icons?i=firebase,mongodb,mysql"/>
-
-## AI & Development
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode"/>
-
-</div>
+- 🤖 Build AI-powered applications using LLMs and generative AI tools
+- 🎨 Design responsive, mobile-first web interfaces
+- ⚙️ Develop full stack apps with React, Next.js, and Node.js
+- 🗄️ Work with Firebase and SQL databases to manage app data
+- 🔧 Debug, optimize, and ship production-ready projects
 
 ---
 
-# 🤖 AI & Machine Learning
+### 📫 Let's Connect
 
-| Domain | Experience |
-|---------|------------|
-| Generative AI | ⭐⭐⭐⭐☆ |
-| Prompt Engineering | ⭐⭐⭐⭐☆ |
-| Large Language Models | ⭐⭐⭐⭐☆ |
-| AI Interview Systems | ⭐⭐⭐⭐☆ |
-| Voice AI | ⭐⭐⭐⭐☆ |
-| Full Stack AI Apps | ⭐⭐⭐⭐☆ |
-| Firebase | ⭐⭐⭐⭐☆ |
-| REST APIs | ⭐⭐⭐⭐☆ |
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rahul-baghel-6694a9343/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rahulorai03@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rahul-Baghel01)
 
 ---
 
-# 🚀 Featured Projects
-
-<details open>
-<summary><b>🎙️ PrepWise – AI Mock Interview Platform</b></summary>
-
-### Overview
-
-PrepWise is an AI-powered interview preparation platform that simulates real technical interviews using voice AI and personalized question generation.
-
-### Key Features
-
-- 🎤 AI Voice Interview
-- 📄 Resume Upload & Analysis
-- 🤖 AI-generated Interview Questions
-- 💬 Human-like Interview Experience
-- 📊 AI Feedback & Performance Report
-- 🔥 Interview History
-- 🔐 Secure Authentication
-- ☁️ Firebase & Firestore Integration
-- 📱 Responsive UI
-- ⚡ Real-time Interview Experience
-
-### Tech Stack
-
-- Next.js
-- React
-- Tailwind CSS
-- Firebase
-- Firestore
-- Gemini AI
-- Groq LLM
-- Vapi AI
-- TypeScript
-
-### Highlights
-
-- Resume-based personalized interviews
-- AI-generated technical and HR questions
-- Voice conversation powered by Vapi AI
-- Detailed interview analytics and feedback
-- Modern production-ready architecture
-
-</details>
-
----
-
-<details open>
-<summary><b>💬 SecureChat – Real-Time Chat Application</b></summary>
-
-### Overview
-
-SecureChat is a modern real-time messaging application designed for secure and responsive communication.
-
-### Features
-
-- Real-time Messaging
-- Authentication
-- Responsive UI
-- User-friendly Interface
-- Fast Communication
-
-### Tech Stack
-
-- JavaScript
-- Node.js
-- Express.js
-- Firebase
-- HTML
-- CSS
-
-### Highlights
-
-- Modern chat experience
-- Secure authentication
-- Clean user interface
-- Responsive across devices
-
-</details>
-
----
-
-# 📊 GitHub Analytics
-
-<div align="center">
-
-<img src="./github-metrics.svg" width="100%" />
-
-</div>
-
----
-
-# 📈 Contribution Graph
-
-[![Rahul's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Rahul-Baghel01&theme=tokyo-night&hide_border=true)](https://github.com/Rahul-Baghel01)
-
----
-
-# 🐍 Contribution Snake
-
-<div align="center">
-
-![Snake animation](https://raw.githubusercontent.com/Rahul-Baghel01/Rahul-Baghel01/output/github-contribution-grid-snake-dark.svg)
-
-</div>
-
----
+⭐️ *Always learning, always building.*
