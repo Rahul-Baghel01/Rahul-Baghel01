@@ -46,7 +46,7 @@ function replacePlaceholders(template, values) {
     }
 
     const elementPattern = new RegExp(
-      `(<text\\b[^>]*\\b${PLACEHOLDER_ATTRIBUTE}=["']${placeholder}["'][^>]*>)([\\s\\S]*?)(<\\/text>)`,
+      `(<(text|tspan)\\b[^>]*\\b${PLACEHOLDER_ATTRIBUTE}=["']${placeholder}["'][^>]*>)([\\s\\S]*?)(<\\/(text|tspan)>)`,
     );
     if (!elementPattern.test(updatedTemplate)) {
       throw new Error(
@@ -56,7 +56,8 @@ function replacePlaceholders(template, values) {
 
     updatedTemplate = updatedTemplate.replace(
       elementPattern,
-      (_, openingTag, __, closingTag) => `${openingTag}\n\n${escapedValue}\n\n${closingTag}`,
+      (_, openingTag, _elementName, _content, closingTag) =>
+        `${openingTag}\n\n${escapedValue}\n\n${closingTag}`,
     );
   }
 
