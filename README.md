@@ -256,7 +256,7 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="https://www.linkedin.com/in/rahul-baghel-6694a9343"><img src="https://img.shields.io/badge/LINKEDIN-PROFESSIONAL_NODE-0B1120?style=for-the-badge&logo=linkedin&logoColor=00D9FF" alt="Rahul Baghel on LinkedIn"/></a>
+      <a href="https://www.linkedin.com/in/rahul-baghel19/"><img src="https://img.shields.io/badge/LINKEDIN-PROFESSIONAL_NODE-0B1120?style=for-the-badge&logo=linkedin&logoColor=00D9FF" alt="Rahul Baghel on LinkedIn"/></a>
     </td>
     <td align="center">
       <a href="mailto:rahulorai03@gmail.com"><img src="https://img.shields.io/badge/EMAIL-OPEN_CHANNEL-0B1120?style=for-the-badge&logo=gmail&logoColor=8B5CF6" alt="Email Rahul Baghel"/></a>
